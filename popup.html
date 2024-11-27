@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TikTok Interaction Extension</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>TikTok Interaction Settings</h2>
+      <div class="input-group">
+        <label for="keywords">Keywords (comma-separated):</label>
+        <input type="text" id="keywords" placeholder="Enter keywords..." />
+      </div>
+      <div class="input-group">
+        <label for="comment-text">Comment Template:</label>
+        <textarea
+          id="comment-text"
+          placeholder="Enter comment template..."
+        ></textarea>
+      </div>
+      <div class="actions">
+        <button id="start-search">Start Search</button>
+        <button id="stop-search">Stop Search</button>
+      </div>
+      <div id="status"></div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

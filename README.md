@@ -1,2 +1,1 @@
-# tiktok-interaction-extension
-TikTok Interaction Extension
+# TikTok Interaction Extension
